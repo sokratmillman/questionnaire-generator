@@ -1,0 +1,86 @@
+.surveys {
+    max-width: 590px;
+    margin: 0 auto;
+    padding: 25px 0;
+
+    color: #000;
+    font-size: 18px;
+    line-height: 19.8px;
+}
+
+.surveys__title {
+    margin: 35px 0;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.surveys__list {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style: none;
+}
+
+.surveys__item {
+    padding: 24px 30px;
+
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+}
+
+.surveys__name {
+    margin: 0 0 20px;
+
+    font-size: 22px;
+    line-height: 35.2px;
+}
+
+.surveys__info {
+    display: flex;
+    gap: 30px;
+}
+
+.surveys__link {
+    padding: 0;
+
+    font-size: 18px;
+    line-height: 19.8px;
+
+    color: #D376FF;
+    border: none;
+    background-color: transparent;
+}
+
+.surveys__link--remove {
+    color: #FD7777;
+}
+
+.surveys__link:hover {
+    cursor: pointer;
+}
+
+.surveys__button {
+    margin-top: 35px;
+    padding: 30px 48px;
+    width: 420px;
+
+    line-height: 28.8px;
+
+    border: 1px solid #B556EF;
+    border-radius: 100px;
+    background-color: transparent;
+
+    text-align: center;
+    color: #B556EF;
+    font-weight: 600;
+}
+
+.surveys__button:hover {
+    cursor: pointer;
+}

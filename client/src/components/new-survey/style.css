@@ -1,0 +1,82 @@
+.create {
+    max-width: 590px;
+    margin: 0 auto;
+
+    color: #000;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.create__title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.create__form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.create__label {
+    display: block;
+    margin-bottom: 15px;
+
+    font-weight: 500;
+}
+
+.create__input {
+    width: 100%;
+    padding: 20px 30px;
+    border: 1px solid #E4E4E4;
+    border-radius: 15px;
+}
+
+.create__input--area {
+    height: 160px;
+}
+
+.create__fileinput {
+    display: none;
+}
+
+.create__scv-button {
+    display: block;
+    padding: 18px 48px;
+    width: 300px;
+
+    border: 1px solid #B556EF;
+    border-radius: 100px;
+    background-color: transparent;
+
+    text-align: center;
+    color: #B556EF;
+    font-weight: 600;
+}
+
+.create__scv-button:hover {
+    cursor: pointer;
+}
+
+.create__select {
+    padding: 22px 20px;
+}
+
+.create__submit {
+    padding: 18px 48px;
+
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28.8px;
+
+    border: none;
+    border-radius: 100px;
+    background-color: #B556EF;
+}
+
+.create__submit {
+    cursor: pointer;
+}
