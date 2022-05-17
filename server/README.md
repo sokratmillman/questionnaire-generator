@@ -1,6 +1,11 @@
 # Server side of the Questionnaire-Generator
 
-To run this server locally, you need to configure .env file with the following variables: (We use PostgreSQL as a database and S3 as a store for files)
+You will need Yandex S3 bucket to store .csv files with a key and key id.
+
+Moreover, you will need to create a Postgres database and store its credentials somewhere.
+
+Then, to run this server locally, you need to configure server/.env file with the following variables:
+
 ```
 DB_USER={db_user_name}
 DB_PASSWORD={db_user_password}
