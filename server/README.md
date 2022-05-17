@@ -11,4 +11,4 @@ S3_ACCESS_KEY_ID={access_key_id_for_s3}
 S3_SECRET_KEY={secret_key_for_s3}
 ```
 After that, run
-````npm run dev```
+```npm run dev```
