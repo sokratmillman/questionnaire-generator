@@ -1,0 +1,52 @@
+.stage {
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #000;
+}
+
+.stage__info {
+    padding: 40px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.stage__description {
+    margin: 0;
+}
+
+.stage__table {
+    width: 100%;
+
+    border-top: 1px solid rgba(228, 228, 228, 1);
+    border-bottom: 1px solid rgba(228, 228, 228, 1);
+    border-collapse: collapse;
+}
+
+.stage__tr {
+    border: 1px solid rgba(228, 228, 228, 1);
+}
+
+.stage__td {
+    text-align: center;
+    border: 1px solid rgba(228, 228, 228, 1);
+}
+
+.stage_button {
+    margin-top: 40px;
+    margin-left: 60px;
+    display: block;
+    padding: 30px 144px;
+
+    text-align: center;
+    color: #B556EF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+
+    border: 1px solid #B556EF;
+    border-radius: 100px;
+    background-color: transparent;
+}
